@@ -1,0 +1,19 @@
+Nama Kelompok : Ineffable
+
+Anggota :
+1. 10122277_Sheli Maulida Salsiah (Backend, membuat fungsionalitas web)
+2. 10122287_Naufal Fahrezi M. (Backend, membuat fungsionalitas web)
+3. 10122305_Dicky Bariyadi S. (Frontend, membuat tampilan antarmuka)
+4. 10122307_Dhimas Kurnia P. S. (Frontend, membantu membuat tampilan antarmuka)
+5. 10122310_Muhammad Fajar Satria Pamungkas (Frontend, membuat tampilan antarmuka)
+
+Nama Produk : IndeffableShop
+Alur Program:
+Untuk mengakses web ini kita menggunakan file index.html. 
+Di dalam Web ini kita punya 2 perspektif, yaitu:
+1. Admin
+	Jika kita adalah admin, kita disini dapat mengaksesnya dengan cara membuka index.html lalu mencari tombol admin yang terletak pada bagian bawah index. Selanjutnya kita akan diarahkan ke file signin_adm.php dimana disini memasukkan username dan password yang kita set secara manual kedalam phpmyadmin (ceritanya karyawan yang mendapatkan email perusahaan) setelah berhasil login, kita akan langsung di arahkan ke file admin.php dimana didalam file ini kita akan melihat tabel yang berisi jumlah produk, nama dan username admin, dan bisa menambah, mengedit, menghapus (CRUD). lalu kita bisa keluar dengan mengklik tombol keluar di bagian bawah tabel.
+Notes: jika kita menambahkan produk baru kita harus mengakses lokasi gambar produk dengan cara mengetiknya agar bisa muncul di halaman web.php
+
+2. User(Customer)
+	Jika kita adalah User(Customer), kita disini mengaksesnya dengan cara membuka index.html lalu kita akan dihadapkan dengan dua tombol, yaitu "i want to join" dan "already join". Jika User sudah punya akun maka user dapat memilih "already join" dan akan langsung diarahkan ke halaman signin_cus.php dimana User harus memasukkan username dan password yang telah dia buat sebelumnya. Jika User belum mempunyai akun maka user dapat mengklik "i want to join" dan akan langsung diarahkan ke halaman signup_cus.php dimana User harus memasukkan identitas dirinya. Selanjutnya setelah login, user akan langsung diarahkan ke file web.php. didalam web.php user dapat melihat produk apa yng dijual dan menambahkannya ke keranjang, namun sebelum menambahkannya ke keranjang user harus mengetikkannya qty yang diinginkan lalu klik gambar keranjang dan akan langsung diarahkan ke file cart.php. Didalam cart.php user dapat melihat produk yang dia inginkan beserta harganya dan User dapat memasukkan kode voucher yang terdapat pada slide di file web.php dan user dapat mengkosongkan cart dengan klik tombol empty cart.
